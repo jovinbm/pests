@@ -1,0 +1,27 @@
+{
+  "name": "vixin",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Deonatus Mwilanga <deomwilanga@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "font-awesome": "fontawesome#^4.6.3",
+    "normalize-css": "^6.0.0",
+    "bootstrap": "v4.0.0-alpha.6",
+    "tether": "^1.4.0",
+    "parallax.js": "^1.4.2",
+    "matchHeight": "matchheight#^0.7.2",
+    "isotope": "^3.0.3"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mabao Investment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="dns-prefetch">
+    <link href="/css/app.css" rel="stylesheet">
+    <script src="/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <script type="text/javascript">
+         window.__PRELOADED_STATE__ = '<%- JSON.stringify(preloadedState) %>';
+
+         String.prototype.escapeSpecialChars = function() {
+             return this.replace(/\\n/g, "\\n")
+                 .replace(/\\'/g, "\\'")
+                 .replace(/\\"/g, '\\"')
+                 .replace(/\\&/g, "\\&")
+                 .replace(/\\r/g, "\\r")
+                 .replace(/\\t/g, "\\t")
+                 .replace(/\\b/g, "\\b")
+                 .replace(/\\f/g, "\\f");
+         };
+
+        window.__PRELOADED_STATE__=window.__PRELOADED_STATE__.escapeSpecialChars();
+
+
+
+    </script>
+</head>
+<style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+
+<div id="app"></div>
+<script src="/js/bundle.js"></script>
+</body>
+</html>

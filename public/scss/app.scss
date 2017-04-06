@@ -1,0 +1,64 @@
+@import "../../bower_components/bootstrap/scss/bootstrap";
+@import "../../bower_components/font-awesome/scss/font-awesome";
+@import "includes/home";
+@import "includes/pest";
+@import "includes/about";
+@import "includes/service";
+@import "includes/contact";
+
+
+body {
+  background: url('../images/fly.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: #ffffff;
+}
+.headingMaroon{
+  color: #903;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 28px;
+}
+.smallHeading{
+
+}
+
+.body{
+  min-height: 100vh;
+  //background: hsla(0, 0%, 0%, 0.4)
+
+}
+
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+.pestsContainer{
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+
+  .pestBox{
+    border: 1px solid black;
+    width: 150px !important;
+  }
+
+}
+
+
+.pestDescription{
+  background: hsla(0, 0%, 0%, 0.7);
+  padding: 40px;
+  margin-top:40px;
+}
+

@@ -1,0 +1,30 @@
+.pests2{
+
+  .row{
+    margin-top: 60px;
+
+    .pestimage{
+
+      transition: all 2s linear;
+      padding: 0 !important;
+      img{
+        max-width: 100%;
+      }
+    }
+  }
+
+}
+
+.hideElement{
+  display: none;
+
+}
+
+.pestDetail{
+  transition: all 2s linear;
+}
+
+.pestDetailShow{
+
+  display: none;
+}
