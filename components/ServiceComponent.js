@@ -24,8 +24,9 @@ export  default class ServiceComponent extends React.Component{
                     <div className="col-lg-6 col-sm-12 col-xs-12">
                         <h3>Services</h3>
                         <ul>
+                            <li>Malaria Vector Control especially elimination of mosquitoes transmission of malaria</li>
+                            <li>Bees removal in unwanted areas</li>
                             <li>Pest control treatment against cockroaches, rodents, bees, flies, mosquitoes, snakes, bed bugs and ticks</li>
-
                             <li>Sale of public health pesticides and agrochemicals</li>
 
                             <li>Sale of personal protective/safety equipment and application equipment</li>

@@ -114,45 +114,45 @@
 
 	var _server2 = _interopRequireDefault(_server);
 
-	var _reactRouter = __webpack_require__(7);
+	var _reactRouter = __webpack_require__(6);
 
-	var _MainComponent = __webpack_require__(8);
+	var _MainComponent = __webpack_require__(7);
 
 	var _MainComponent2 = _interopRequireDefault(_MainComponent);
 
-	var _HomeComponent = __webpack_require__(10);
+	var _HomeComponent = __webpack_require__(9);
 
 	var _HomeComponent2 = _interopRequireDefault(_HomeComponent);
 
-	var _ProfileComponent = __webpack_require__(14);
+	var _ProfileComponent = __webpack_require__(13);
 
 	var _ProfileComponent2 = _interopRequireDefault(_ProfileComponent);
 
-	var _PestsComponent = __webpack_require__(15);
+	var _PestsComponent = __webpack_require__(14);
 
 	var _PestsComponent2 = _interopRequireDefault(_PestsComponent);
 
-	var _ServiceComponent = __webpack_require__(17);
+	var _ServiceComponent = __webpack_require__(16);
 
 	var _ServiceComponent2 = _interopRequireDefault(_ServiceComponent);
 
-	var _ContactComponent = __webpack_require__(18);
+	var _ContactComponent = __webpack_require__(17);
 
 	var _ContactComponent2 = _interopRequireDefault(_ContactComponent);
 
-	var _PestComponent = __webpack_require__(19);
+	var _PestComponent = __webpack_require__(18);
 
 	var _PestComponent2 = _interopRequireDefault(_PestComponent);
 
-	var _reactRedux = __webpack_require__(16);
+	var _reactRedux = __webpack_require__(15);
 
-	var _redux = __webpack_require__(20);
+	var _redux = __webpack_require__(19);
 
-	var _index = __webpack_require__(21);
+	var _index = __webpack_require__(20);
 
 	var _index2 = _interopRequireDefault(_index);
 
-	var _ReactRoutes = __webpack_require__(6);
+	var _ReactRoutes = __webpack_require__(22);
 
 	var _ReactRoutes2 = _interopRequireDefault(_ReactRoutes);
 
@@ -195,70 +195,12 @@
 
 /***/ },
 /* 6 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _reactRouter = __webpack_require__(7);
-
-	var _MainComponent = __webpack_require__(8);
-
-	var _MainComponent2 = _interopRequireDefault(_MainComponent);
-
-	var _HomeComponent = __webpack_require__(10);
-
-	var _HomeComponent2 = _interopRequireDefault(_HomeComponent);
-
-	var _ProfileComponent = __webpack_require__(14);
-
-	var _ProfileComponent2 = _interopRequireDefault(_ProfileComponent);
-
-	var _PestsComponent = __webpack_require__(15);
-
-	var _PestsComponent2 = _interopRequireDefault(_PestsComponent);
-
-	var _ServiceComponent = __webpack_require__(17);
-
-	var _ServiceComponent2 = _interopRequireDefault(_ServiceComponent);
-
-	var _ContactComponent = __webpack_require__(18);
-
-	var _ContactComponent2 = _interopRequireDefault(_ContactComponent);
-
-	var _react = __webpack_require__(3);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _PestComponent = __webpack_require__(19);
-
-	var _PestComponent2 = _interopRequireDefault(_PestComponent);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	module.exports = _react2.default.createElement(
-	    _reactRouter.Route,
-	    { component: _MainComponent2.default },
-	    _react2.default.createElement(_reactRouter.Route, { path: '/', component: _HomeComponent2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _ProfileComponent2.default }),
-	    _react2.default.createElement(
-	        _reactRouter.Route,
-	        { path: '/pests', component: _PestsComponent2.default },
-	        _react2.default.createElement(_reactRouter.Route, { path: '(:id)', component: _PestComponent2.default })
-	    ),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/services', component: _ServiceComponent2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/contacts', component: _ContactComponent2.default })
-	); /**
-	    * Created by programer on 2/3/17.
-	    */
-
-/***/ },
-/* 7 */
 /***/ function(module, exports) {
 
 	module.exports = require("react-router");
 
 /***/ },
-/* 8 */
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -273,7 +215,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _NavigationComponent = __webpack_require__(9);
+	var _NavigationComponent = __webpack_require__(8);
 
 	var _NavigationComponent2 = _interopRequireDefault(_NavigationComponent);
 
@@ -329,7 +271,7 @@
 	exports.default = MainComponent;
 
 /***/ },
-/* 9 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -344,7 +286,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactRouter = __webpack_require__(7);
+	var _reactRouter = __webpack_require__(6);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -454,7 +396,7 @@
 	exports.default = NavigationComponent;
 
 /***/ },
-/* 10 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -469,11 +411,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _PestsSliderComponent = __webpack_require__(11);
+	var _PestsSliderComponent = __webpack_require__(10);
 
 	var _PestsSliderComponent2 = _interopRequireDefault(_PestsSliderComponent);
 
-	var _CarouselComponent = __webpack_require__(13);
+	var _CarouselComponent = __webpack_require__(12);
 
 	var _CarouselComponent2 = _interopRequireDefault(_CarouselComponent);
 
@@ -558,7 +500,7 @@
 	exports.default = HomeComponent;
 
 /***/ },
-/* 11 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -573,7 +515,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactSlick = __webpack_require__(12);
+	var _reactSlick = __webpack_require__(11);
 
 	var _reactSlick2 = _interopRequireDefault(_reactSlick);
 
@@ -747,13 +689,13 @@
 	exports.default = PestsSliderComponent;
 
 /***/ },
-/* 12 */
+/* 11 */
 /***/ function(module, exports) {
 
 	module.exports = require("react-slick");
 
 /***/ },
-/* 13 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -807,7 +749,7 @@
 	                    _react2.default.createElement(
 	                        "div",
 	                        { className: "carousel-item active" },
-	                        _react2.default.createElement("img", { src: "images/danaus-1188361_1280.jpg", alt: "First slide", height: 300, width: 700 }),
+	                        _react2.default.createElement("img", { src: "images/danaus-1188361_1280compressed.jpg", alt: "First slide", height: 300, width: 700 }),
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "carousel-caption d-none d-md-block" },
@@ -826,7 +768,7 @@
 	                    _react2.default.createElement(
 	                        "div",
 	                        { className: "carousel-item" },
-	                        _react2.default.createElement("img", { src: "images/fruit-flies-520905_1280.jpg", alt: "Second slide", height: 300, width: 700 }),
+	                        _react2.default.createElement("img", { src: "images/fruit-flies-520905_1280compressed.jpg", alt: "Second slide", height: 300, width: 700 }),
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "carousel-caption d-none d-md-block" },
@@ -845,7 +787,7 @@
 	                    _react2.default.createElement(
 	                        "div",
 	                        { className: "carousel-item" },
-	                        _react2.default.createElement("img", { src: "images/housefly-1122462_1280.jpg", alt: "Third slide", height: 300, width: 700 }),
+	                        _react2.default.createElement("img", { src: "images/housefly-1122462_1280compressed.jpg", alt: "Third slide", height: 300, width: 700 }),
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "carousel-caption d-none d-md-block" },
@@ -892,7 +834,7 @@
 	exports.default = CarouselComponent;
 
 /***/ },
-/* 14 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -966,7 +908,7 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "AJ MABAO INVESTMENT & GENERAL PEST CONTROL LTD is a registered company in the United Republic of Tanzania. We deal in pest control and related services. We are a progressive dynamic company that always seeks to improve and progress. We constantly adapt and realign to;"
+	                            "AJ MABAO INVESTMENT & GENERAL PEST CONTROL LTD is a registered company in the United Republic of Tanzania. We deal with malaria vectors and other pests control and related services. We are a progressive dynamic company that always seeks to improve and progress. We constantly adapt and realign to;"
 	                        ),
 	                        _react2.default.createElement(
 	                            "ul",
@@ -1009,7 +951,7 @@
 	exports.default = ProfileComponent;
 
 /***/ },
-/* 15 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1024,9 +966,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactRedux = __webpack_require__(16);
+	var _reactRedux = __webpack_require__(15);
 
-	var _reactRouter = __webpack_require__(7);
+	var _reactRouter = __webpack_require__(6);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1149,13 +1091,13 @@
 	exports.default = (0, _reactRedux.connect)(mapStateToProps)(PestsComponent);
 
 /***/ },
-/* 16 */
+/* 15 */
 /***/ function(module, exports) {
 
 	module.exports = require("react-redux");
 
 /***/ },
-/* 17 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1211,6 +1153,16 @@
 	                        _react2.default.createElement(
 	                            "ul",
 	                            null,
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
+	                                "Malaria Vector Control especially elimination of mosquitoes transmission of malaria"
+	                            ),
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
+	                                "Bees removal in unwanted areas"
+	                            ),
 	                            _react2.default.createElement(
 	                                "li",
 	                                null,
@@ -1293,7 +1245,7 @@
 	exports.default = ServiceComponent;
 
 /***/ },
-/* 18 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1399,7 +1351,7 @@
 	exports.default = ContactComponent;
 
 /***/ },
-/* 19 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1414,7 +1366,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactRedux = __webpack_require__(16);
+	var _reactRedux = __webpack_require__(15);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1482,13 +1434,13 @@
 	exports.default = (0, _reactRedux.connect)(mapStateToProps)(PestComponent);
 
 /***/ },
-/* 20 */
+/* 19 */
 /***/ function(module, exports) {
 
 	module.exports = require("redux");
 
 /***/ },
-/* 21 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1497,9 +1449,9 @@
 	  value: true
 	});
 
-	var _redux = __webpack_require__(20);
+	var _redux = __webpack_require__(19);
 
-	var _reducer_pests = __webpack_require__(22);
+	var _reducer_pests = __webpack_require__(21);
 
 	var _reducer_pests2 = _interopRequireDefault(_reducer_pests);
 
@@ -1516,7 +1468,7 @@
 	exports.default = rootReducer;
 
 /***/ },
-/* 22 */
+/* 21 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1529,30 +1481,88 @@
 
 	    return [{
 	        pest: 'Termites',
-	        url: 'pests1.jpg',
+	        url: 'pests1compressed.jpg',
 	        description: "An underground nest contains millions of termites with the queen living up to 15 years and laying 10,000 eggs a day. Termites feed on anything that contains cellulose.Their exploratory habit has made anything to be a possible target.They have more ways to enter your home and office than you do."
 	    }, {
 	        pest: 'Ants',
-	        url: 'pests3.jpg',
+	        url: 'pests3compressed.jpg',
 	        description: "Some ants dont just enter to forage for food but establish a colony inside your home. These events occur year-round, especially in warmer climates. Ant species that live in homes include Argentine Ants, Crazy Ants, Odorous House Ants, Pavement Ants, Pharaoh Ants, Thief Ants, and Carpenter Ants. All of these ants may infest food products"
 	    }, {
 	        pest: 'Rodents',
-	        url: 'pests6.jpg',
+	        url: 'pests6compressed.jpg',
 	        description: "In ideal conditions, one pair of rodents can give rise to 1000 offspring in one year.Due to week bladders, they urinate freely while feeding thus contaminating food surfaces and water. In addition, rodents Spread diseases to humans (plague, leptospirosis, etc) and livestock Cause structural damage Create fire hazards by chewing electrical wires Consume and contaminate food and crops"
 	    }, {
 	        pest: 'Bugs',
-	        url: 'pests7.jpg',
+	        url: 'pests7compressed.jpg',
 	        description: "This particular bug has been known to infest homes in their tens of thousands, (yes you read that right), and is recognised as the most invasive ladybird on earth. Another reason that this particular pest causes a problem is that they may bite you if an alternative food source isn’t available. They are known to harbour within cavities inside the home and vary in colour and pattern."
 	    }, {
 	        pest: 'Cockroaches',
-	        url: 'pests10.jpg',
+	        url: 'pests10compressed.jpg',
 	        description: "They pose a grave life threat to humans. They spread dysentery, typhoid, etc. Fossil evidence shows that they have existed for more that 250 million years. They live and breed under hostile conditions and have become resistant to conventional insecticides."
 	    }, {
 	        pest: 'Bees',
-	        url: 'pests11.jpg',
+	        url: 'pests11compressed.jpg',
 	        description: "Honey bees can be very defensive toward anyone approaching their hive. Alarmed workers release substances from glands in the sting apparatus and mouth parts which cause other bees to attack, and thus, mass stinging incidents can occur. Unlike most other stinging insects, a honey bee can only sting once since it loses the stinger imbedded in the victim and subsequently dies, the ultimate sacrifice for the good of the community."
 	    }];
 	};
+
+/***/ },
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _reactRouter = __webpack_require__(6);
+
+	var _MainComponent = __webpack_require__(7);
+
+	var _MainComponent2 = _interopRequireDefault(_MainComponent);
+
+	var _HomeComponent = __webpack_require__(9);
+
+	var _HomeComponent2 = _interopRequireDefault(_HomeComponent);
+
+	var _ProfileComponent = __webpack_require__(13);
+
+	var _ProfileComponent2 = _interopRequireDefault(_ProfileComponent);
+
+	var _PestsComponent = __webpack_require__(14);
+
+	var _PestsComponent2 = _interopRequireDefault(_PestsComponent);
+
+	var _ServiceComponent = __webpack_require__(16);
+
+	var _ServiceComponent2 = _interopRequireDefault(_ServiceComponent);
+
+	var _ContactComponent = __webpack_require__(17);
+
+	var _ContactComponent2 = _interopRequireDefault(_ContactComponent);
+
+	var _react = __webpack_require__(3);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _PestComponent = __webpack_require__(18);
+
+	var _PestComponent2 = _interopRequireDefault(_PestComponent);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	module.exports = _react2.default.createElement(
+	    _reactRouter.Route,
+	    { component: _MainComponent2.default },
+	    _react2.default.createElement(_reactRouter.Route, { path: '/', component: _HomeComponent2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/about', component: _ProfileComponent2.default }),
+	    _react2.default.createElement(
+	        _reactRouter.Route,
+	        { path: '/pests', component: _PestsComponent2.default },
+	        _react2.default.createElement(_reactRouter.Route, { path: '(:id)', component: _PestComponent2.default })
+	    ),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/services', component: _ServiceComponent2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/contacts', component: _ContactComponent2.default })
+	); /**
+	    * Created by programer on 2/3/17.
+	    */
 
 /***/ }
 /******/ ]);

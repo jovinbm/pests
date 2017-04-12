@@ -4,7 +4,7 @@
 let gulp = require('gulp'),
     sass = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer'),
-    minifycss = require('gulp-minify-css'),
+    cleanCSS = require('gulp-clean-css');
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
@@ -36,6 +36,7 @@ gulp.task('appCss',function(){
 
     return merge(css,scss)
         .pipe(concat('app.css'))
+        .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest('public/css'));
 
 

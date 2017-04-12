@@ -27,21 +27,21 @@ export default class CarouselComponent extends React.Component{
                 </ol>
                 <div className="carousel-inner" role="listbox">
                     <div className="carousel-item active">
-                        <img src="images/danaus-1188361_1280.jpg" alt="First slide" height={300} width={700}/>
+                        <img src="images/danaus-1188361_1280compressed.jpg" alt="First slide" height={300} width={700}/>
                         <div className="carousel-caption d-none d-md-block">
                             <h3>Larvae one of the destcructive plant pests that we deal with</h3>
                             <p>Call us and lets clear your problem</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="images/fruit-flies-520905_1280.jpg" alt="Second slide" height={300} width={700}/>
+                        <img src="images/fruit-flies-520905_1280compressed.jpg" alt="Second slide" height={300} width={700}/>
                         <div className="carousel-caption d-none d-md-block">
                             <h3>FruitFlies Destroying Plant fruit  </h3>
                             <p>With us there this problem will be a thing of the past</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="images/housefly-1122462_1280.jpg" alt="Third slide" height={300} width={700}/>
+                        <img src="images/housefly-1122462_1280compressed.jpg" alt="Third slide" height={300} width={700}/>
                         <div className="carousel-caption d-none d-md-block">
                            <h3>Tsetse Flies Are Both harmful to humans and livestock</h3>
                            <p>No worries we deal with these too</p>

@@ -1,6 +1,7 @@
 /**
  * Created by programer on 1/29/17.
  */
+let webpack = require('webpack');
 let path = require('path');
 let NODE_MODULES = path.join(__dirname, './node_modules');
 
@@ -29,6 +30,9 @@ module.exports={
                 loaders: ['style', 'css']
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({ comments: false,}) //minify everything
+    ],
 
 }

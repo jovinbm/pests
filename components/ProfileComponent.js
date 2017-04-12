@@ -34,7 +34,7 @@ export default class ProfileComponent extends React.Component{
                     <div className="col about">
                         <p>
                             AJ MABAO INVESTMENT & GENERAL PEST CONTROL LTD is a registered company in the United Republic of Tanzania.
-                            We deal in pest control and related services.
+                            We deal with malaria vectors and other pests control and related services.
                             We are a progressive dynamic company that always seeks to improve and progress. We constantly adapt and realign to;
                         </p>
                         <ul>
