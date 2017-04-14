@@ -1161,6 +1161,11 @@
 	                            _react2.default.createElement(
 	                                "li",
 	                                null,
+	                                "We control mosquitoes in stage of larva and we ensure that mosquito population density is reduced"
+	                            ),
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
 	                                "Bees removal in unwanted areas"
 	                            ),
 	                            _react2.default.createElement(
@@ -1210,28 +1215,23 @@
 	                        { className: "co-4 offset-2 hidden-sm-down" },
 	                        _react2.default.createElement(
 	                            "div",
-	                            { className: "col-2" },
-	                            _react2.default.createElement("img", { src: "images/chemicals.png", className: "", width: 150, height: 150 })
+	                            { className: "col-4" },
+	                            _react2.default.createElement("img", { src: "images/work4.jpg", className: "", width: 300, height: 250 })
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-4" },
+	                            _react2.default.createElement("img", { src: "images/work1.jpg", className: "", width: 300, height: 250 })
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-4" },
+	                            _react2.default.createElement("img", { src: "images/work2.jpg", className: "", width: 300, height: 250 })
 	                        ),
 	                        _react2.default.createElement(
 	                            "div",
 	                            { className: "col-2" },
-	                            _react2.default.createElement("img", { src: "images/chemicals2.jpg", className: "", width: 150, height: 150 })
-	                        ),
-	                        _react2.default.createElement(
-	                            "div",
-	                            { className: "col-2" },
-	                            _react2.default.createElement("img", { src: "images/chemical3.jpg", className: "", width: 150, height: 150 })
-	                        ),
-	                        _react2.default.createElement(
-	                            "div",
-	                            { className: "col-2" },
-	                            _react2.default.createElement("img", { src: "images/pestcontrol.jpg", className: "", width: 150, height: 150 })
-	                        ),
-	                        _react2.default.createElement(
-	                            "div",
-	                            { className: "col-2" },
-	                            _react2.default.createElement("img", { src: "images/soil.jpg", className: "", width: 150, height: 150 })
+	                            _react2.default.createElement("img", { src: "images/bees3.jpg", className: "", width: 300, height: 250 })
 	                        )
 	                    )
 	                )
@@ -1320,7 +1320,7 @@
 	                                _react2.default.createElement(
 	                                    "span",
 	                                    null,
-	                                    "Director:Abel Juma Mabao P.O BOX 637",
+	                                    "Managing Director:Abel Juma Thomas P.O BOX 712",
 	                                    _react2.default.createElement("br", null),
 	                                    "Clinic Road",
 	                                    _react2.default.createElement("br", null),

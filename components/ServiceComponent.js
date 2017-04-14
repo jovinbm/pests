@@ -25,6 +25,7 @@ export  default class ServiceComponent extends React.Component{
                         <h3>Services</h3>
                         <ul>
                             <li>Malaria Vector Control especially elimination of mosquitoes transmission of malaria</li>
+                            <li>We control mosquitoes in stage of larva and we ensure that mosquito population density is reduced</li>
                             <li>Bees removal in unwanted areas</li>
                             <li>Pest control treatment against cockroaches, rodents, bees, flies, mosquitoes, snakes, bed bugs and ticks</li>
                             <li>Sale of public health pesticides and agrochemicals</li>
@@ -48,20 +49,17 @@ export  default class ServiceComponent extends React.Component{
                         </p>
                     </div>
                     <div className="co-4 offset-2 hidden-sm-down">
-                        <div className="col-2">
-                            <img src="images/chemicals.png" className="" width={150} height={150}/>
+                        <div className="col-4">
+                            <img src="images/work4.jpg" className="" width={300} height={250}/>
+                        </div>
+                        <div className="col-4">
+                            <img src="images/work1.jpg" className="" width={300} height={250}/>
+                        </div>
+                        <div className="col-4">
+                            <img src="images/work2.jpg" className="" width={300} height={250}/>
                         </div>
                         <div className="col-2">
-                            <img src="images/chemicals2.jpg" className="" width={150} height={150}/>
-                        </div>
-                        <div className="col-2">
-                            <img src="images/chemical3.jpg" className="" width={150} height={150}/>
-                        </div>
-                        <div className="col-2">
-                            <img src="images/pestcontrol.jpg" className="" width={150} height={150}/>
-                        </div>
-                        <div className="col-2">
-                            <img src="images/soil.jpg" className="" width={150} height={150}/>
+                            <img src="images/bees3.jpg" className="" width={300} height={250}/>
                         </div>
                     </div>
                 </div>

@@ -31,8 +31,8 @@ export  default class ContactComponent extends React.Component{
                         <div className="row">
                             <div className="col">
                             <span>
-                                Director:Abel Juma Mabao
-                                P.O BOX 637<br/>
+                                Managing Director:Abel Juma Thomas
+                                P.O BOX 712<br/>
                                 Clinic Road<br/>
                                 Kahama,Shinyanga
                             </span>
