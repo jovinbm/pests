@@ -5,6 +5,8 @@ import Express from 'express';
 import path from 'path';
 import React from 'react';
 import Public from './routes/public';
+import Mail from './routes/Mailing';
+
 
 
 let app=Express();
@@ -17,6 +19,8 @@ app.set('views',path.join(__dirname+'views'));
 
 
 app.use('/',Public);
+
+app.use('/mail',Mail);
 
 
 

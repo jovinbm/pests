@@ -62,18 +62,24 @@
 
 	var _public2 = _interopRequireDefault(_public);
 
+	var _Mailing = __webpack_require__(23);
+
+	var _Mailing2 = _interopRequireDefault(_Mailing);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	/**
-	 * Created by programer on 2/3/17.
-	 */
-	var app = (0, _express2.default)();
+	var app = (0, _express2.default)(); /**
+	                                     * Created by programer on 2/3/17.
+	                                     */
+
 
 	app.use(_express2.default.static(_path2.default.join(__dirname + 'public')));
 	app.set('view engine', 'ejs');
 	app.set('views', _path2.default.join(__dirname + 'views'));
 
 	app.use('/', _public2.default);
+
+	app.use('/mail', _Mailing2.default);
 
 	app.listen(3000);
 	/* WEBPACK VAR INJECTION */}.call(exports, ""))
@@ -1338,6 +1344,43 @@
 	                                _react2.default.createElement("br", null),
 	                                "Email:mabao.investment@gmail.com"
 	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "row" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "col-6" },
+	                                _react2.default.createElement(
+	                                    "form",
+	                                    { method: "post", action: "" },
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "form-group" },
+	                                        _react2.default.createElement(
+	                                            "label",
+	                                            { htmlFor: "exampleInputEmail1" },
+	                                            "Email address"
+	                                        ),
+	                                        _react2.default.createElement("input", { type: "email", className: "form-control", id: "exampleInputEmail1", "aria-describedby": "emailHelp", placeholder: "Enter email" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "form-group" },
+	                                        _react2.default.createElement(
+	                                            "label",
+	                                            { htmlFor: "exampleTextarea" },
+	                                            "Message"
+	                                        ),
+	                                        _react2.default.createElement("textarea", { className: "form-control", id: "exampleTextarea", rows: 3, defaultValue: "" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "button",
+	                                        { type: "submit", className: "btn btn-primary" },
+	                                        "Submit"
+	                                    )
+	                                )
+	                            )
 	                        )
 	                    )
 	                )
@@ -1563,6 +1606,60 @@
 	); /**
 	    * Created by programer on 2/3/17.
 	    */
+
+/***/ },
+/* 23 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _express = __webpack_require__(1);
+
+	var _express2 = _interopRequireDefault(_express);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var nodemailer = __webpack_require__(24);
+	var mg = __webpack_require__(25);
+
+	module.exports = function (req, res, next) {
+
+	    var api_key = 'key-55ab8c16339ee0a9932d9a51e8e156e1';
+	    var host = 'smtp.mailgun.org';
+	    var nodemailerMailgun = nodemailer.createTransport(mg(auth));
+
+	    var auth = {
+	        auth: {
+	            api_key: 'key-1234123412341234',
+	            domain: 'mabao-investment.com'
+	        }
+	    };
+
+	    nodemailerMailgun.sendMail({
+	        from: 'myemail@example.com',
+	        to: 'deomwilanga@gmail.com', // An array if you have multiple recipients.
+	        subject: 'Hey you, awesome!',
+	        text: 'Mailgun rocks, pow pow!'
+	    }, function (err, info) {
+	        if (err) {
+	            console.log('Error: ' + err);
+	        } else {
+	            console.log('Response: ' + info);
+	        }
+	    });
+	};
+
+/***/ },
+/* 24 */
+/***/ function(module, exports) {
+
+	module.exports = require("nodemailer");
+
+/***/ },
+/* 25 */
+/***/ function(module, exports) {
+
+	module.exports = require("nodemailer-mailgun-transport");
 
 /***/ }
 /******/ ]);
